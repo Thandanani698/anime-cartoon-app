@@ -1,12 +1,28 @@
-# React + Vite
+Anime Cartoon App 🎌
+This is a simple Anime Cartoon App built with React and Tailwind CSS. The app allows users to browse anime, search for titles, and view details about each anime.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features ✅
+📜 Anime List – Displays a collection of anime
 
-Currently, two official plugins are available:
+🔍 Search Feature – Allows users to search for anime by title
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📄 Anime Details Page – Shows details like title, image, and description
 
-## Expanding the ESLint configuration
+🔑 Login & Signup – Users can register and log in
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Beginner-Friendly UI – Simple and easy to navigate
+
+Tech Stack 🏗
+⚛️ React
+
+🎨 Tailwind CSS
+
+🌐 Jikan API (for anime data)
+
+Future Improvements 🚀
+✅ Parental controls
+
+✅ User authentication with a database
+
+✅ More anime details and trailers
+
