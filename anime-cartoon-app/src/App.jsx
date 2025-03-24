@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-import Navbar from "./components/Navbar";
+import AnimeList from "./components/AnimeList";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<h1 className="text-center mt-10">Welcome to the Anime Cartoon App!</h1>} />
+        <Route path="/" element={<AnimeList />} />
       </Routes>
     </Router>
   );
